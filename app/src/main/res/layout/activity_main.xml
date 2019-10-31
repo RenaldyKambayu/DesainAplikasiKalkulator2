@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MASUKKAN DUA ANGKA"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/angka_pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="masukkan_angka_pertama"
+        android:inputType="number"
+        android:textSize="14sp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/angka_kedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan angka kedua"
+        android:inputType="number"
+        android:textSize="14sp"
+        tools:ignore="Autofill,HardcodedText" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="ExtraText">
+    >
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="+"
+        tools:ignore="ButtonStyle,HardcodedText" />
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        tools:ignore="ButtonStyle,HardcodedText" />
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        tools:ignore="ButtonStyle,HardcodedText" />
+
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        tools:ignore="ButtonStyle,HardcodedText,InefficientWeight" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/bersihkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BERSIHKAN"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="HASIl"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
